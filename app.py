@@ -1,10 +1,6 @@
 from flask import Flask , request , render_template
 import pickle
 
-
-
-
-
 vector = pickle.load(open("vectorizer.pkl",'rb'))
 model = pickle.load(open("news_det_model.pkl",'rb'))
 
